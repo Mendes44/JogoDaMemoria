@@ -35,3 +35,15 @@ src/
 
 Essa separação evita misturar regras, como validar pares e contar erros, com a
 forma de apresentar o tabuleiro ou ler dados do usuário.
+
+## Como os arquivos se conectam
+
+1. O Node executa `src/index.js` por meio do comando `npm start`.
+2. `index.js` importa os emojis, a camada de exibição e o controlador.
+3. O controlador solicita ao serviço a criação do jogo e a aplicação das regras.
+4. O controlador solicita à view a leitura das escolhas e a impressão do tabuleiro.
+5. A view importa `readline-sync` do diretório `node_modules` para ler o teclado.
+
+Os caminhos iniciados por `./` buscam algo a partir da pasta atual. Um caminho
+iniciado por `../` volta uma pasta antes de continuar. Já `require("readline-sync")`
+não possui `./` porque busca uma dependência instalada pelo npm.
