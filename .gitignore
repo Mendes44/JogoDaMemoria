@@ -1,0 +1,5 @@
+# Dependências instaladas pelo npm podem ser recriadas com `npm install`.
+node_modules/
+
+# Arquivos de log gerados em caso de erro do npm.
+npm-debug.log*

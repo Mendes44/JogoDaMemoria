@@ -1,0 +1,16 @@
+{
+  "name": "jogo-da-memoria-terminal",
+  "version": "1.0.0",
+  "description": "Jogo da memória com emojis executado no terminal.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
