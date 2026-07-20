@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480">
+  <rect width="900" height="480" fill="#111827"/>
+  <rect x="42" y="42" width="816" height="396" rx="12" fill="#050b18" stroke="#374151"/>
+  <path d="M54 42h792a12 12 0 0 1 12 12v30H42V54a12 12 0 0 1 12-12z" fill="#1f2937"/>
+  <circle cx="64" cy="63" r="6" fill="#fb7185"/>
+  <circle cx="86" cy="63" r="6" fill="#fbbf24"/>
+  <circle cx="108" cy="63" r="6" fill="#34d399"/>
+  <text x="132" y="68" fill="#9ca3af" font-family="Segoe UI, sans-serif" font-size="14">Node.js — Jogo da Memória</text>
+  <g fill="#e5e7eb" font-family="Consolas, Cascadia Mono, Segoe UI Emoji, monospace" font-size="22" xml:space="preserve">
+    <text x="68" y="128">Tabuleiro:</text>
+    <text x="68" y="165">[ 🐱 ]  [ 🐶 ]  [ 🍎 ]  [ 🍌 ]</text>
+    <text x="68" y="200">[ ⚽ ]  [ 🏀 ]  [ 🌟 ]  [ ✨ ]</text>
+    <text x="68" y="235">[ 🐱 ]  [ 🐶 ]  [ 🍎 ]  [ 🍌 ]</text>
+    <text x="68" y="270">[ ⚽ ]  [ 🏀 ]  [ 🌟 ]  [ ✨ ]</text>
+    <text x="68" y="329" fill="#86efac">✅ As cartas combinam!</text>
+    <text x="68" y="389" fill="#86efac">🎉 Parabéns! Você encontrou todos os pares!</text>
+  </g>
+</svg>
